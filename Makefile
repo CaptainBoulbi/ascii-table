@@ -3,3 +3,6 @@ all:
 
 run: all
 	./ascii-table
+
+fast:
+	gcc -Wall -Wextra fast-ascii-table.c -o fast-ascii-table
